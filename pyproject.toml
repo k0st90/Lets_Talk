@@ -1,13 +1,13 @@
 [tool.poetry]
-name = "let's-talk"
+name = "let's talk"
 version = "0.1.0"
 description = ""
 authors = ["Konstantin  <hghghge8@gmail.com>"]
 readme = "README.md"
-packages = [{include = "let's_talk"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+django = "^4.2.4"
 
 
 [build-system]
