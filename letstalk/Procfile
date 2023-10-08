@@ -1,0 +1,1 @@
+web gunicorn letstalk.wsgi:application --log-file -
