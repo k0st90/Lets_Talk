@@ -1,1 +1,1 @@
-web gunicorn letstalk.letstalk:wsgi:application --log-file -
+web gunicorn letstalk.letstalk.wsgi:application --log-file -
